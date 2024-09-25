@@ -1,0 +1,26 @@
+// Variables
+html {
+  --mainColor: rgb(52, 163, 163); /* Amarelo forte (dourado) */
+  --secondColor: #2671f3; /* Amarelo claro */
+  --thirdColor: #1a1a1a; /* Preto suave */
+  --pink: #e5e5e5; /* Cinza claro */
+  --green-alt: rgb(52, 163, 163); /* Cinza médio */
+  --purple: rgb(52, 163, 163); /* Cinza escuro */
+  --bg: black; /* Preto */
+  --darkBlue: #0d0d0d; /* Preto levemente mais claro */
+  --white: white; /* Branco */
+  --whiteLight: #f2f2f2; /* Branco suave */
+}
+
+html[data-theme="light"] {
+  --mainColor: rgb(52, 163, 163); /* Amarelo mais suave */
+  --secondColor: #2671f3; /* Amarelo muito claro */
+  --thirdColor: #cccccc; /* Cinza médio */
+  --pink: #f0e68c; /* Amarelo claro */
+  --green-alt: rgb(52, 163, 163); /* Cinza claro */
+  --purple: rgb(52, 163, 163); /* Cinza suave */
+  --bg: #ffffff; /* Branco */
+  --darkBlue: #eaeaea; /* Quase branco */
+  --white: #1a1a1a; /* Preto suave */
+  --whiteLight: #404040; /* Cinza escuro */
+}
